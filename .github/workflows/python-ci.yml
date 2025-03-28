@@ -30,4 +30,9 @@ jobs:
     - name: Echo Secret Variable (Masked)
       run: |
         echo "Secret Key: ${{ secrets.SECRET_KEY }}"
+
+    - name: Echo Environment Variables
+      run: |
+        echo "Public Env: $APP_ENV"
+        echo "Debug Mode: $DEBUG_MODE"
     
