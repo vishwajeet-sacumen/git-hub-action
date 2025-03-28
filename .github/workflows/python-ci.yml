@@ -28,6 +28,6 @@ jobs:
         pytest tests
 
     - name: Echo Secret Variable (Masked)
-        run: |
-          echo "Secret Key: ${{ secrets.SECRET_KEY }}"
+      run: |
+        echo "Secret Key: ${{ secrets.SECRET_KEY }}"
     
