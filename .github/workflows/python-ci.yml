@@ -33,5 +33,5 @@ jobs:
 
     - name: Echo Environment Variables
       run: |
-        echo "Public Env: $URL"
+        echo "${{ vars.URL }}"
     
